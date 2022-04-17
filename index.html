@@ -1,0 +1,242 @@
+$
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Bài tập 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính tiền lương nhân viên theo số ngày làm</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Số ngày làm</label>
+                            <input id="txtNgayLam" type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="">Lương 1 ngày</label>
+                            <select id="selectLuong"" class="form-control">
+                                <option value="100000">100000</option>
+                            </select>
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="">Muốn chia bao nhiêu người?</label>
+                            <input id="share" type="text" class="form-control" />
+                        </div> -->
+                        <button id="btn-result" class="btn btn-danger">Tính</button>
+                    </div>
+                    <div id="result" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- Bài tập 2 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính giá trị trung bình của 5 số</div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Số thứ nhất</label>
+                            <input id="so1" type="text" class="form-control" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="">Số thứ hai</label>
+                            <input id="so2" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Số thứ ba</label>
+                            <input id="so3" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Số thứ tư</label>
+                            <input id="so4" type="text" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Số thứ năm</label>
+                            <input id="so5" type="text" class="form-control" />
+                        </div>
+                        <button id="btn-ketqua" class="btn btn-danger">Tính</button>
+                    </div>
+                    <div id="printKetqua" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- Bài tập 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Quy đổi USD sang VND</div>
+                    <div class="card-body">
+                        <!-- <div class="form-group">
+                            <label for="">Giá quy đổi 1 USD sang VND</label>
+                            <input id="gia1USD" type="text" class="form-control" />
+                        </div> -->
+                        <div class="form-group">
+                            <label for="">Giá quy đổi 1 USD sang VND</label>
+                            <select id="selectVND"" class="form-control">
+                                <option value="22901">22,901 VND</option>
+                                <option value="23000">23,000 VND</option>
+                                <option value="23500">23,500 VND</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Số lượng USD</label>
+                            <input id="luongUSD" type="text" class="form-control" />
+                        </div>
+                        <button id="btn-console" class="btn btn-danger">Tính</button>
+                    </div>
+                    <div id="printConsole" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- Bài tập 4 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính chu vi, diện tích hình chữ nhật </div>
+
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Chiều dài hình chữ nhật (m)</label>
+                            <input id="chieuDai" type="text" class="form-control" />
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="">Giá quy đổi 1 USD sang VND</label>
+                            <select id="selectVND"" class="form-control">
+                                <option value="22901">22,901 VND</option>
+                                <option value="23000">23,000 VND</option>
+                            </select>
+                        </div> -->
+                        <div class="form-group">
+                            <label for="">Chiều rộng hình chữ nhật (m)</label>
+                            <input id="chieuRong" type="text" class="form-control" />
+                        </div>
+
+                        <button id="btn_result" class="btn btn-danger">Tính</button>
+                    </div>
+
+                    <div id="print_result" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- ----------------------------------------------------------------------------- -->
+    <!-- Bài tập 5 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">Tính tổng của 2 chữ số hàng chục và hàng đơn vị</div>
+
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="">Nhập số có 2 chữ số</label>
+                            <input id="nhapSo" type="text" class="form-control" />
+                        </div>
+                        <!-- <div class="form-group">
+                            <label for="">Giá quy đổi 1 USD sang VND</label>
+                            <select id="selectVND"" class="form-control">
+                                <option value="22901">22,901 VND</option>
+                                <option value="23000">23,000 VND</option>
+                            </select>
+                        </div> -->
+
+                        <!-- <div class="form-group">
+                            <label for="">Chiều rộng hình chữ nhật (m)</label>
+                            <input id="chieuRong" type="text" class="form-control" />
+                        </div> -->
+
+                        <button id="btn__result" class="btn btn-danger">Tính</button>
+                    </div>
+
+                    <div id="print__result" class="card-footer text-muted"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+        <script src="./main.js"></script>
+</body>
+
+</html>
